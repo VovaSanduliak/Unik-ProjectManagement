@@ -113,10 +113,10 @@ const App = () => {
                         style={{marginTop: ".5rem"}}>
                   +
                 </Button>
-                <Button onClick={() => clearPossibilities()}
-                        style={{marginTop: ".5rem"}}>
-                  Очистити
-                </Button>
+                {/*<Button onClick={() => clearPossibilities()}*/}
+                {/*        style={{marginTop: ".5rem"}}>*/}
+                {/*  Очистити*/}
+                {/*</Button>*/}
               </div>
             </div>
           </Fieldset>
