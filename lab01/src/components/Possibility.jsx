@@ -9,10 +9,10 @@ const Possibility = (
     handlePossibilityDelete}
   ) => {
   return (
-    <div style={{display: "flex", justifyContent: "space-between"}}>
+    <div style={{display: "flex", justifyContent: "space-between", alignItems: "flex-end"}}>
       <NumberInput
         onChange={(value) => handlePossibilityValueChange(index, value)}
-        leftSection={label}
+        label={label}
         allowNegative={false}
         min={0}
         max={1}
@@ -20,6 +20,7 @@ const Possibility = (
         value={value}
       />
       <Button
+        variant={"outline"}
         onClick={() => handlePossibilityDelete(index)}>
         X
       </Button>
